@@ -10,7 +10,7 @@ services:
       - NET_ADMIN
       - NET_RAW
     volumes:
-      - ./data:/data
+      - ./data/:/data/
       - /var/log:/var/log:ro
     env_file:
       - ./fail2ban.env
