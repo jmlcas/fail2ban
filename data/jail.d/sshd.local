@@ -1,7 +1,4 @@
 [sshd]
 enabled = true
-chain = INPUT
-port = ssh
-filter = sshd[mode=aggressive]
-logpath = /var/log/auth.log
+bantime = 1d
 maxretry = 5
