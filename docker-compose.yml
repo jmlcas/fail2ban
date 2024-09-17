@@ -1,5 +1,3 @@
-version: "3.5"
-
 services:
 
   fail2ban:
@@ -12,6 +10,7 @@ services:
     volumes:
       - ./data/:/data/
       - /var/log:/var/log:ro
+#      - ./root/docker/proxy-manager/data/logs:/log/npm/:ro      
     env_file:
       - ./fail2ban.env
     restart: unless-stopped
