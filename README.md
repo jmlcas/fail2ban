@@ -1,4 +1,5 @@
-# fail2band
-Fail2band - 
+# Fail2Band
 
-No utilizar en pruebas
+Ver logs en Portainer
+
+Ver logs: docker logs -f fail2ban
